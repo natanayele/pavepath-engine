@@ -1,0 +1,25 @@
+# =========================
+# PYTHON EXCLUSIONS (Backend)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+.pytest_cache/
+.ruff_cache/
+outputs/
+*.pdf
+*.dxf
+
+# =========================
+# C# / .NET EXCLUSIONS (AutoCAD Plugin)
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.log
+.vs/
